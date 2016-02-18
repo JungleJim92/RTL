@@ -1,0 +1,33 @@
+{C:/Users/James/Dropbox/College/Fall 2015/VLSI/lab3/src/ssp_rx.v} {1 {vlog -work work -stats=none {C:/Users/James/Dropbox/College/Fall 2015/VLSI/lab3/src/ssp_rx.v}
+Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+-- Compiling module ssp_rx
+-- Compiling module serial_receiver
+-- Compiling module shift_reg_rx
+
+Top level modules:
+	ssp_rx
+
+} {} {}} {C:/Users/James/Dropbox/College/Fall 2015/VLSI/lab3/src/fifo_4.v} {1 {vlog -work work -stats=none {C:/Users/James/Dropbox/College/Fall 2015/VLSI/lab3/src/fifo_4.v}
+Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+-- Compiling module fifo_4
+
+Top level modules:
+	fifo_4
+
+} {} {}} {C:/Users/James/Dropbox/College/Fall 2015/VLSI/lab3/src/pulse_latch.v} {1 {vlog -work work -stats=none {C:/Users/James/Dropbox/College/Fall 2015/VLSI/lab3/src/pulse_latch.v}
+Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+-- Compiling module pulse_latch
+-- Compiling module dff
+-- Compiling module dff_async
+
+Top level modules:
+	pulse_latch
+
+} {} {}} {C:/Users/James/Dropbox/College/Fall 2015/VLSI/lab3/simulation/ssp_rx_tb.v} {1 {vlog -work work -stats=none {C:/Users/James/Dropbox/College/Fall 2015/VLSI/lab3/simulation/ssp_rx_tb.v}
+Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+-- Compiling module ssp_rx_tb
+
+Top level modules:
+	ssp_rx_tb
+
+} {} {}}

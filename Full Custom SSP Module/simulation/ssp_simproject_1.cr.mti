@@ -1,0 +1,56 @@
+{C:/Users/James/Dropbox/College/Fall 2015/VLSI/lab3/part_a/simulation/ssp_test2.v} {1 {vlog -work work -stats=none {C:/Users/James/Dropbox/College/Fall 2015/VLSI/lab3/part_a/simulation/ssp_test2.v}
+Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+-- Compiling module ssp_test_2
+
+Top level modules:
+	ssp_test_2
+
+} {} {}} {C:/Users/James/Dropbox/College/Fall 2015/VLSI/lab3/part_a/src/pulse_latch.v} {1 {vlog -work work -stats=none {C:/Users/James/Dropbox/College/Fall 2015/VLSI/lab3/part_a/src/pulse_latch.v}
+Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+-- Compiling module pulse_latch
+-- Compiling module dff
+-- Compiling module dff_async
+
+Top level modules:
+	pulse_latch
+
+} {} {}} {C:/Users/James/Dropbox/College/Fall 2015/VLSI/lab3/part_a/src/ssp_tx.v} {1 {vlog -work work -stats=none {C:/Users/James/Dropbox/College/Fall 2015/VLSI/lab3/part_a/src/ssp_tx.v}
+Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+-- Compiling module ssp_tx
+-- Compiling module serial_transmitter
+-- Compiling module shift_reg_tx
+
+Top level modules:
+	ssp_tx
+
+} {} {}} {C:/Users/James/Dropbox/College/Fall 2015/VLSI/lab3/part_a/src/ssp.v} {1 {vlog -work work -stats=none {C:/Users/James/Dropbox/College/Fall 2015/VLSI/lab3/part_a/src/ssp.v}
+Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+-- Compiling module SSP
+
+Top level modules:
+	SSP
+
+} {} {}} {C:/Users/James/Dropbox/College/Fall 2015/VLSI/lab3/part_a/src/ssp_rx.v} {1 {vlog -work work -stats=none {C:/Users/James/Dropbox/College/Fall 2015/VLSI/lab3/part_a/src/ssp_rx.v}
+Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+-- Compiling module ssp_rx
+-- Compiling module serial_receiver
+-- Compiling module shift_reg_rx
+
+Top level modules:
+	ssp_rx
+
+} {} {}} {C:/Users/James/Dropbox/College/Fall 2015/VLSI/lab3/part_a/src/fifo_4.v} {1 {vlog -work work -stats=none {C:/Users/James/Dropbox/College/Fall 2015/VLSI/lab3/part_a/src/fifo_4.v}
+Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+-- Compiling module fifo_4
+
+Top level modules:
+	fifo_4
+
+} {} {}} {C:/Users/James/Dropbox/College/Fall 2015/VLSI/lab3/part_a/simulation/ssp_test1.v} {1 {vlog -work work -stats=none {C:/Users/James/Dropbox/College/Fall 2015/VLSI/lab3/part_a/simulation/ssp_test1.v}
+Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+-- Compiling module ssp_test
+
+Top level modules:
+	ssp_test
+
+} {} {}}

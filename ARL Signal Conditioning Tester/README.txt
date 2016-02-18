@@ -1,0 +1,1 @@
+This is a project I created while employed with ARL UT. It includes System Verilog code for an Altera FPGA. The project was to create hardware for testing "Signal Conditioning" hardware used in various projects at ARL. The goal was to create a hardware solution for reading telemetry data and building a formatted UDP packet to transmit the data to a desktop application.

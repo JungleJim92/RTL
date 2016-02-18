@@ -1,0 +1,217 @@
+# Compile of ssp_test1.v failed with 2 errors.
+# Compile of ssp.v was successful.
+# Compile of ssp_tx.v was successful.
+# Compile of fifo_4.v was successful.
+# Compile of pulse_latch.v was successful.
+# Compile of ssp_rx.v was successful.
+# 6 compiles, 1 failed with 2 errors.
+# Compile of ssp_test1.v was successful.
+# Compile of ssp.v was successful.
+# Compile of ssp_tx.v was successful.
+# Compile of fifo_4.v was successful.
+# Compile of pulse_latch.v was successful.
+# Compile of ssp_rx.v was successful.
+# 6 compiles, 0 failed with no errors.
+# Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (C:/Users/James/Dropbox/College/Fall 2015/VLSI/lab3/simulation/ssp_simproject_1.mpf).  File can not be renamed.
+vsim work.ssp_test
+# vsim work.ssp_test 
+# Start time: 23:08:25 on Nov 18,2015
+# Loading work.ssp_test
+# Loading work.SSP
+# Loading work.ssp_tx
+# Loading work.dff
+# Loading work.pulse_latch
+# Loading work.dff_async
+# Loading work.fifo_4
+# Loading work.serial_transmitter
+# Loading work.shift_reg_tx
+# Loading work.ssp_rx
+# Loading work.serial_receiver
+# Loading work.shift_reg_rx
+# ** Error (suppressible): (vsim-3053) C:/Users/James/Dropbox/College/Fall 2015/VLSI/lab3/src/ssp_tx.v(42): Illegal output or inout port connection for port 'sig_o'.
+#    Time: 0 ps  Iteration: 0  Instance: /ssp_test/ssp1/tx_module/ps1 File: C:/Users/James/Dropbox/College/Fall 2015/VLSI/lab3/src/pulse_latch.v
+# Error loading design
+# End time: 23:08:25 on Nov 18,2015, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# Compile of ssp_test1.v was successful.
+# Compile of ssp.v was successful.
+# Compile of ssp_tx.v was successful.
+# Compile of fifo_4.v was successful.
+# Compile of pulse_latch.v was successful.
+# Compile of ssp_rx.v was successful.
+# 6 compiles, 0 failed with no errors.
+# Error: Acs sdne.
+# P
+#        Unable to replace existing ini file (C:/Users/James/Dropbox/College/Fall 2015/VLSI/lab3/simulation/ssp_simproject_1.mpf).  File can not be renamed.
+vsim work.ssp_test
+# vsim work.ssp_test 
+# Start time: 23:08:54 on Nov 18,2015
+# Loading work.ssp_test
+# Loading work.SSP
+# Loading work.ssp_tx
+# Loading work.dff
+# Loading work.pulse_latch
+# Loading work.dff_async
+# Loading work.fifo_4
+# Loading work.serial_transmitter
+# Loading work.shift_reg_tx
+# Loading work.ssp_rx
+# Loading work.serial_receiver
+# Loading work.shift_reg_rx
+add wave -position end  sim:/ssp_test/clock
+add wave -position end  sim:/ssp_test/clear_b
+add wave -position end  sim:/ssp_test/pwrite
+add wave -position end  sim:/ssp_test/psel
+add wave -position end  sim:/ssp_test/sspclkin
+add wave -position end  sim:/ssp_test/sspfssin
+add wave -position end  sim:/ssp_test/ssprxd
+add wave -position end  sim:/ssp_test/data_in
+add wave -position end  sim:/ssp_test/sspoe_b
+add wave -position end  sim:/ssp_test/ssptxd
+add wave -position end  sim:/ssp_test/sspfssout
+add wave -position end  sim:/ssp_test/sspclkout
+add wave -position end  sim:/ssp_test/ssptxintr
+add wave -position end  sim:/ssp_test/ssprxintr
+add wave -position end  sim:/ssp_test/data_out
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: James  Hostname: LUDES-2  ProcessID: 7056
+# 
+#           Attempting to use alternate WLF file "./wlft7mdbgs".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlft7mdbgs
+# 
+add wave -position end  sim:/ssp_test/ssp1/PCLK
+add wave -position end  sim:/ssp_test/ssp1/PSEL
+add wave -position end  sim:/ssp_test/ssp1/PWRITE
+add wave -position end  sim:/ssp_test/ssp1/CLEAR_B
+add wave -position end  sim:/ssp_test/ssp1/PWDATA
+add wave -position end  sim:/ssp_test/ssp1/PRDATA
+add wave -position end  sim:/ssp_test/ssp1/SSPTXINTR
+add wave -position end  sim:/ssp_test/ssp1/SSPRXINTR
+add wave -position end  sim:/ssp_test/ssp1/SSPOE_B
+add wave -position end  sim:/ssp_test/ssp1/SSPTXD
+add wave -position end  sim:/ssp_test/ssp1/SSPFSSOUT
+add wave -position end  sim:/ssp_test/ssp1/SSPCLKOUT
+add wave -position end  sim:/ssp_test/ssp1/SSPCLKIN
+add wave -position end  sim:/ssp_test/ssp1/SSPFSSIN
+add wave -position end  sim:/ssp_test/ssp1/SSPRXD
+add wave -position end  sim:/ssp_test/ssp1/do_write
+add wave -position end  sim:/ssp_test/ssp1/do_read
+add wave -position end  sim:/ssp_test/ssp1/tx_module/clk_i
+add wave -position end  sim:/ssp_test/ssp1/tx_module/rst_i
+add wave -position end  sim:/ssp_test/ssp1/tx_module/do_write
+add wave -position end  sim:/ssp_test/ssp1/tx_module/tx_d
+add wave -position end  sim:/ssp_test/ssp1/tx_module/tx_full
+add wave -position end  sim:/ssp_test/ssp1/tx_module/sspclkout
+add wave -position end  sim:/ssp_test/ssp1/tx_module/sspfssout
+add wave -position end  sim:/ssp_test/ssp1/tx_module/ssptxd
+add wave -position end  sim:/ssp_test/ssp1/tx_module/transmit_ready
+add wave -position end  sim:/ssp_test/ssp1/tx_module/write
+add wave -position end  sim:/ssp_test/ssp1/tx_module/read
+add wave -position end  sim:/ssp_test/ssp1/tx_module/write_d
+add wave -position end  sim:/ssp_test/ssp1/tx_module/read_d
+add wave -position end  sim:/ssp_test/ssp1/tx_module/empty
+add wave -position end  sim:/ssp_test/ssp1/tx_module/full
+add wave -position end  sim:/ssp_test/ssp1/tx_module/data_valid
+add wave -position end  sim:/ssp_test/ssp1/tx_module/tx_busy
+add wave -position end  sim:/ssp_test/ssp1/tx_module/sr_in
+add wave -position end  sim:/ssp_test/ssp1/tx_module/ser_tx/sspclkout
+add wave -position end  sim:/ssp_test/ssp1/tx_module/ser_tx/sspfssout
+add wave -position end  sim:/ssp_test/ssp1/tx_module/ser_tx/ssptxd
+add wave -position end  sim:/ssp_test/ssp1/tx_module/ser_tx/rst_i
+add wave -position end  sim:/ssp_test/ssp1/tx_module/ser_tx/data_valid
+add wave -position end  sim:/ssp_test/ssp1/tx_module/ser_tx/busy
+add wave -position end  sim:/ssp_test/ssp1/tx_module/ser_tx/ssptxout
+add wave -position end  sim:/ssp_test/ssp1/tx_module/ser_tx/ld
+add wave -position end  sim:/ssp_test/ssp1/tx_module/ser_tx/shift
+add wave -position end  sim:/ssp_test/ssp1/tx_module/ser_tx/t_count
+add wave -position end  sim:/ssp_test/ssp1/tx_module/ser_tx/tx_sr/clk_i
+add wave -position end  sim:/ssp_test/ssp1/tx_module/ser_tx/tx_sr/rst_i
+add wave -position end  sim:/ssp_test/ssp1/tx_module/ser_tx/tx_sr/d_in
+add wave -position end  sim:/ssp_test/ssp1/tx_module/ser_tx/tx_sr/ld
+add wave -position end  sim:/ssp_test/ssp1/tx_module/ser_tx/tx_sr/shift
+add wave -position end  sim:/ssp_test/ssp1/tx_module/ser_tx/tx_sr/q
+add wave -position end  sim:/ssp_test/ssp1/tx_module/ser_tx/tx_sr/d
+add wave -position end  sim:/ssp_test/ssp1/tx_module/tx_fifo/clk_i
+add wave -position end  sim:/ssp_test/ssp1/tx_module/tx_fifo/rst_i
+add wave -position end  sim:/ssp_test/ssp1/tx_module/tx_fifo/write
+add wave -position end  sim:/ssp_test/ssp1/tx_module/tx_fifo/read
+add wave -position end  sim:/ssp_test/ssp1/tx_module/tx_fifo/write_d
+add wave -position end  sim:/ssp_test/ssp1/tx_module/tx_fifo/read_d
+add wave -position end  sim:/ssp_test/ssp1/tx_module/tx_fifo/empty
+add wave -position end  sim:/ssp_test/ssp1/tx_module/tx_fifo/full
+add wave -position end  sim:/ssp_test/ssp1/tx_module/tx_fifo/d
+add wave -position end  sim:/ssp_test/ssp1/tx_module/tx_fifo/size
+restart
+# Compile of ssp_test1.v was successful.
+# Compile of ssp.v was successful.
+# Compile of ssp_tx.v was successful.
+# Compile of fifo_4.v was successful.
+# Compile of pulse_latch.v was successful.
+# Compile of ssp_rx.v was successful.
+# 6 compiles, 0 failed with no errors.
+restart
+# Loading work.ssp_test
+# Loading work.SSP
+# Loading work.ssp_tx
+# Loading work.dff
+# Loading work.pulse_latch
+# Loading work.dff_async
+# Loading work.fifo_4
+# Loading work.serial_transmitter
+# Loading work.shift_reg_tx
+# Loading work.ssp_rx
+# Loading work.serial_receiver
+# Loading work.shift_reg_rx
+run
+run
+restart
+# Compile of ssp_test1.v was successful.
+# Compile of ssp.v was successful.
+# Compile of ssp_tx.v was successful.
+# Compile of fifo_4.v was successful.
+# Compile of pulse_latch.v was successful.
+# Compile of ssp_rx.v was successful.
+# 6 compiles, 0 failed with no errors.
+restart
+# Loading work.ssp_test
+# Loading work.SSP
+# Loading work.ssp_tx
+# Loading work.pulse_latch
+# Loading work.dff_async
+# Loading work.dff
+# Loading work.fifo_4
+# Loading work.serial_transmitter
+# Loading work.shift_reg_tx
+# Loading work.ssp_rx
+# Loading work.serial_receiver
+# Loading work.shift_reg_rx
+# ** Error: (vsim-3063) C:/Users/James/Dropbox/College/Fall 2015/VLSI/lab3/src/ssp_tx.v(41): Port 'd' not found in the connected module (1st connection).
+#    Time: 0 ps  Iteration: 0  Instance: /ssp_test/ssp1/tx_module/ps1 File: C:/Users/James/Dropbox/College/Fall 2015/VLSI/lab3/src/pulse_latch.v
+# ** Error: (vsim-3063) C:/Users/James/Dropbox/College/Fall 2015/VLSI/lab3/src/ssp_tx.v(41): Port 'clk' not found in the connected module (2nd connection).
+#    Time: 0 ps  Iteration: 0  Instance: /ssp_test/ssp1/tx_module/ps1 File: C:/Users/James/Dropbox/College/Fall 2015/VLSI/lab3/src/pulse_latch.v
+# ** Error: (vsim-3063) C:/Users/James/Dropbox/College/Fall 2015/VLSI/lab3/src/ssp_tx.v(41): Port 'rst' not found in the connected module (3rd connection).
+#    Time: 0 ps  Iteration: 0  Instance: /ssp_test/ssp1/tx_module/ps1 File: C:/Users/James/Dropbox/College/Fall 2015/VLSI/lab3/src/pulse_latch.v
+# ** Error: (vsim-3063) C:/Users/James/Dropbox/College/Fall 2015/VLSI/lab3/src/ssp_tx.v(41): Port 'q' not found in the connected module (4th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /ssp_test/ssp1/tx_module/ps1 File: C:/Users/James/Dropbox/College/Fall 2015/VLSI/lab3/src/pulse_latch.v
+# Compile of ssp_test1.v was successful.
+# Compile of ssp.v was successful.
+# Compile of ssp_tx.v was successful.
+# Compile of fifo_4.v was successful.
+# Compile of pulse_latch.v was successful.
+# Compile of ssp_rx.v was successful.
+# 6 compiles, 0 failed with no errors.
+# Break key hit
+# can't read "Startup(-L)": no such element in array
+# Load canceled
+quit -sim
+# End time: 23:14:14 on Nov 18,2015, Elapsed time: 0:05:20
+# Errors: 4, Warnings: 2
+quit -sim
+# Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (C:/Users/James/Dropbox/College/Fall 2015/VLSI/lab3/simulation/ssp_simproject_1.mpf).  File can not be renamed.

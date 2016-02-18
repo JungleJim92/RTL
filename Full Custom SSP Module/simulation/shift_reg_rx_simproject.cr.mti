@@ -1,0 +1,17 @@
+{C:/Users/James/Dropbox/College/Fall 2015/VLSI/lab3/simulation/shift_reg_rx_tb.v} {1 {vlog -work work -stats=none {C:/Users/James/Dropbox/College/Fall 2015/VLSI/lab3/simulation/shift_reg_rx_tb.v}
+Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+-- Compiling module shift_reg_rx_tb
+
+Top level modules:
+	shift_reg_rx_tb
+
+} {} {}} {C:/Users/James/Dropbox/College/Fall 2015/VLSI/lab3/src/ssp_rx.v} {1 {vlog -work work -stats=none {C:/Users/James/Dropbox/College/Fall 2015/VLSI/lab3/src/ssp_rx.v}
+Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+-- Compiling module ssp_rx
+-- Compiling module serial_receiver
+-- Compiling module shift_reg_rx
+
+Top level modules:
+	ssp_rx
+
+} {} {}}

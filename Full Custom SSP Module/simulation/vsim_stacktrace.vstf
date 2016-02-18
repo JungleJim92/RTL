@@ -1,0 +1,63 @@
+# Current time Tue Nov 17 20:51:17 2015
+# ModelSim Stack Trace
+# Program = vsim
+# Id = "10.4b"
+# Version = "2015.05"
+# Date = "May 27 2015"
+# Platform = win32pe
+# Signature = c2b01b574afad2e59ddf0fbe54b96de5
+# --> START OF USERCODE
+# 0    0x74bab6df: 'memset + 0x5f' in 'c:\windows\winsxs\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.8387_none_5094ca96bcb6b2bb\msvcr90.dll'
+# <-- END OF USERCODE
+# 1    0x006e4eaa: '<unknown (@0x6e4eaa)>'
+# 2    0x00511f05: '<unknown (@0x511f05)>'
+# 3    0x00f7fc3d: '<unknown (@0xf7fc3d)>'
+# 4    0x004011c5: '<unknown (@0x4011c5)>'
+# 5    0x0051f7ad: '<unknown (@0x51f7ad)>'
+# 6    0x00523bd6: '<unknown (@0x523bd6)>'
+# 7    0x00523ca9: '<unknown (@0x523ca9)>'
+# 8    0x00523cc8: '<unknown (@0x523cc8)>'
+# 9    0x0072c7c3: '<unknown (@0x72c7c3)>'
+# 10   0x00823c6d: '<unknown (@0x823c6d)>'
+# 11   0x774a6822: 'RtlDeleteAce + 0x1d2' in 'c:\windows\system32\ntdll.dll'
+# 12   0x7750d151: 'LdrUnloadDll + 0x181' in 'c:\windows\system32\ntdll.dll'
+# 13   0x774e07ff: 'KiUserExceptionDispatcher + 0xf' in 'c:\windows\system32\ntdll.dll'
+# 14   0x006e4eaa: '<unknown (@0x6e4eaa)>'
+# 15   0x004596b5: '<unknown (@0x4596b5)>'
+# 16   0x0045978e: '<unknown (@0x45978e)>'
+# 17   0xff0a1ca5: 'C:/Users/James/Dropbox/College/Fall 2015/VLSI/lab3/simulation/ssp_rx_tb.v:61'
+# 18   0x0040105c: '<unknown (@0x40105c)>'
+# 19   0x004444fe: '<unknown (@0x4444fe)>'
+# End of Stack Trace
+
+
+# Current time Tue Nov 17 20:52:11 2015
+# ModelSim Stack Trace
+# Program = vsim
+# Id = "10.4b"
+# Version = "2015.05"
+# Date = "May 27 2015"
+# Platform = win32pe
+# Signature = c2b01b574afad2e59ddf0fbe54b96de5
+# 0    0x006e55a6: '<unknown (@0x6e55a6)>'
+# 1    0x006e4eaa: '<unknown (@0x6e4eaa)>'
+# 2    0x00511f05: '<unknown (@0x511f05)>'
+# 3    0x00f7fc3d: '<unknown (@0xf7fc3d)>'
+# 4    0x004011c5: '<unknown (@0x4011c5)>'
+# 5    0x0051f7ad: '<unknown (@0x51f7ad)>'
+# 6    0x00523bd6: '<unknown (@0x523bd6)>'
+# 7    0x00523ca9: '<unknown (@0x523ca9)>'
+# 8    0x00523cc8: '<unknown (@0x523cc8)>'
+# 9    0x0072c7c3: '<unknown (@0x72c7c3)>'
+# 10   0x00823c6d: '<unknown (@0x823c6d)>'
+# 11   0x774a6822: 'RtlDeleteAce + 0x1d2' in 'c:\windows\system32\ntdll.dll'
+# 12   0x7750d151: 'LdrUnloadDll + 0x181' in 'c:\windows\system32\ntdll.dll'
+# 13   0x774e07ff: 'KiUserExceptionDispatcher + 0xf' in 'c:\windows\system32\ntdll.dll'
+# 14   0x006e4eaa: '<unknown (@0x6e4eaa)>'
+# 15   0x0045d0e4: '<unknown (@0x45d0e4)>'
+# 16   0xff0a1e10: 'C:/Users/James/Dropbox/College/Fall 2015/VLSI/lab3/simulation/ssp_rx_tb.v:63'
+# 17   0x0040105c: '<unknown (@0x40105c)>'
+# 18   0x004444fe: '<unknown (@0x4444fe)>'
+# End of Stack Trace
+
+

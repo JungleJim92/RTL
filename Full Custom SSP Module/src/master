@@ -1,0 +1,1 @@
+time -v lib1 ssp.v ssp_rx.v ssp_tx.v pulse_latch.v fifo_4.v
